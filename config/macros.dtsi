@@ -1,6 +1,48 @@
-macro_macro_kvm_1: macro_macro_kvm_1{
+macro_kvm_rctrl*2: macro_kvm_rctrl*2{
 compatible = "zmk,behavior-macro";
-label = "macro_macro_kvm_1";
+label = "macro_kvm_rctrl*2";
+#binding-cells = <0>;
+bindings = <&kp RCTRL>, <&kp RCTRL>;
+};
+macro_kvm_reset: macro_kvm_reset{
+compatible = "zmk,behavior-macro";
+label = "macro_kvm_reset";
+#binding-cells = <0>;
+bindings = <&kp RCTRL>, <&kp RCTRL>, <&kp R>;
+};
+macro_kvm_freeze: macro_kvm_freeze{
+compatible = "zmk,behavior-macro";
+label = "macro_kvm_freeze";
+#binding-cells = <0>;
+bindings = <&kp RCTRL>, <&kp RCTRL>, <&kp ESC>, <&kp ESC>, <&kp ESC>, <&kp ENTER>;
+};
+macro_kvm_input_reset: macro_kvm_input_reset{
+compatible = "zmk,behavior-macro";
+label = "macro_kvm_input_reset";
+#binding-cells = <0>;
+bindings = <&kp RCTRL>, <&kp RCTRL>, <&kp F2>, <&kp ENTER>;
+};
+macro_kvm4: macro_kvm4{
+compatible = "zmk,behavior-macro";
+label = "macro_kvm4";
+#binding-cells = <0>;
+bindings = <&kp RCTRL>, <&kp RCTRL>, <&kp NUMBER_4>, <&kp ENTER>;
+};
+macro_kvm3: macro_kvm3{
+compatible = "zmk,behavior-macro";
+label = "macro_kvm3";
+#binding-cells = <0>;
+bindings = <&kp RCTRL>, <&kp RCTRL>, <&kp NUMBER_3>, <&kp ENTER>;
+};
+macro_kvm2: macro_kvm2{
+compatible = "zmk,behavior-macro";
+label = "macro_kvm2";
+#binding-cells = <0>;
+bindings = <&kp RCTRL>, <&kp RCTRL>, <&kp NUMBER_2>, <&kp ENTER>;
+};
+macro_kvm1: macro_kvm1{
+compatible = "zmk,behavior-macro";
+label = "macro_kvm1";
 #binding-cells = <0>;
 bindings = <&kp RCTRL>, <&kp RCTRL>, <&kp NUMBER_1>, <&kp ENTER>;
 };
