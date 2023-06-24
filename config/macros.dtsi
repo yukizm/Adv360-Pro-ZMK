@@ -1,9 +1,3 @@
-macro_kvm_rctrl*2: macro_kvm_rctrl*2{
-compatible = "zmk,behavior-macro";
-label = "macro_kvm_rctrl*2";
-#binding-cells = <0>;
-bindings = <&kp RCTRL>, <&kp RCTRL>;
-};
 macro_kvm_reset: macro_kvm_reset{
 compatible = "zmk,behavior-macro";
 label = "macro_kvm_reset";
